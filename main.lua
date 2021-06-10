@@ -1,8 +1,1 @@
-local function httpe()
-	local hi = pcall(function()
-		game:GetService("HttpService"):GetAsync("https://www.google.com/")
-	end)
-	return hi
-end
-
-print(httpe())
+local function a()local b=pcall(function()game:GetService("HttpService"):GetAsync("https://www.google.com/")end)return b end;print(a())
